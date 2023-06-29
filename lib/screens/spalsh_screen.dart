@@ -26,14 +26,14 @@ class _SplashScreenState extends State<SplashScreen> {
             Text(
               'Developed by:',
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
               ),
             ),
             Text(
               'Krishantha Pathum',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 15,
               ),
             ),
           ],
