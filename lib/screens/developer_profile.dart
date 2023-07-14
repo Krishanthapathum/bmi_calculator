@@ -36,14 +36,6 @@ class _DeveloperProfileScreenState extends State<DeveloperProfileScreen> {
                   'assets/images/my_photo.jpg',
                 ),
               ),
-
-              // child: Text(
-              //   'Krishantha Pathum',
-              //   style: TextStyle(
-              //     fontSize: 30,
-              //     fontWeight: FontWeight.bold,
-              //   ),
-              // ),
             ),
           ],
         ),

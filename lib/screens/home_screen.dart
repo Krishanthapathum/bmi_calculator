@@ -163,25 +163,26 @@ class _HomeScreenState extends State<HomeScreen> {
                 });
               },
               child: Container(
-                  width: devwidth * 0.8,
-                  height: 60,
-                  decoration: ShapeDecoration(
-                    color: const Color(0xFF93278F),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(35),
+                width: devwidth * 0.8,
+                height: 60,
+                decoration: ShapeDecoration(
+                  color: const Color(0xFF93278F),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(35),
+                  ),
+                ),
+                child: const Center(
+                  child: Text(
+                    'Calculate',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 25,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
-                  child: const Center(
-                    child: Text(
-                      'Calculate',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 25,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  )),
+                ),
+              ),
             )
           ],
         ),
