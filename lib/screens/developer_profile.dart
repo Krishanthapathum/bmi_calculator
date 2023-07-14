@@ -21,7 +21,7 @@ class _DeveloperProfileScreenState extends State<DeveloperProfileScreen> {
             Container(
               height: devhight * 0.45,
               width: double.infinity,
-              decoration: ShapeDecoration(
+              decoration: const ShapeDecoration(
                 color: Color.fromRGBO(147, 39, 143, 1),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.only(
