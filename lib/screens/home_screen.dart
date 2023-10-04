@@ -28,9 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
         title: const Text(
           "BMI Calculator",
-          style: TextStyle(
-            fontSize: 25,
-          ),
+          style: TextStyle(fontSize: 25, color: Colors.black),
         ),
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(147, 39, 143, 1),
