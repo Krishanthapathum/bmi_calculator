@@ -30,7 +30,7 @@ These instructions will help you get a copy of the project up and running on you
 2. **Navigate to the project directory:**
 
     ```bash
-    cd bmi_calculator_flutter
+    cd bmi_calculator
     ```
 
 3. **Run the app:**
