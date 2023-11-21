@@ -1,4 +1,6 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -9,32 +11,54 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   @override
+  void initState() {
+    super.initState();
+
+    Timer(
+      const Duration(seconds: 3),
+      () => Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const HomeScreen(),
+        ),
+      ),
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
+    double devHeight = MediaQuery.of(context).size.height;
+    double devWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       body: SizedBox(
         width: double.infinity,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(0, 250, 0, 250),
-              child: Image.network(
-                'https://i.ibb.co/88Vp11D/Full-logo-01.png',
-                height: 200,
+              padding: EdgeInsets.only(top: devHeight * 0.30),
+              child: Image.asset(
+                'assets/images/full_logo.png',
+                width: devWidth * 0.7,
               ),
             ),
-            Text(
-              'Developed by:',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            Text(
-              'Krishantha Pathum',
-              style: TextStyle(
-                fontSize: 15,
-              ),
+            const Column(
+              children: [
+                Text(
+                  'Developed by:',
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  'Krishantha Pathum',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                SizedBox(height: 10),
+              ],
             ),
           ],
         ),
