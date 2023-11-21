@@ -52,7 +52,7 @@ class _DeveloperProfileScreenState extends State<DeveloperProfileScreen> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Text(
-                                "Dilan Jayasinghe",
+                                "Krishantha Pathumm",
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 30,

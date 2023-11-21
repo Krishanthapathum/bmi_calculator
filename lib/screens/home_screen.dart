@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -21,10 +22,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Icons.person),
-        actions: const [
-          Icon(Icons.logout),
-          SizedBox(width: 10),
+        // leading: const Icon(Icons.person),
+        actions: [
+          IconButton(
+              icon: const Icon(Icons.logout),
+              onPressed: () {
+                SystemNavigator.pop();
+              }),
+          const SizedBox(width: 10),
         ],
         title: const Text(
           "BMI Calculator",
