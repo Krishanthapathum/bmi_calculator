@@ -14,7 +14,7 @@ This Flutter app provides a basic BMI calculation functionality. It includes a s
 
 ## Screenshots
 
-![App Screenshot](screenshots/screenshot.png)
+![Group 3](https://github.com/Krishanthapathum/bmi_calculator/assets/87825292/599700d0-f50f-46fb-801b-349a0a471804)
 
 
 ## Getting Started
