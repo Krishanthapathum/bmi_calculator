@@ -24,7 +24,7 @@ These instructions will help you get a copy of the project up and running on you
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/bmi_calculator_flutter.git
+    https://github.com/Krishanthapathum/bmi_calculator.git
     ```
 
 2. **Navigate to the project directory:**
