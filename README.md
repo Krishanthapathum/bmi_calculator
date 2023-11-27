@@ -1,5 +1,9 @@
 # BMI Calculator Flutter App
 
+<a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=isurusandaruwan697&label=Profile%20views&color=0e75b6&style=flat" width="125"/></a>
+[![Welcome](https://img.shields.io/badge/-Welcome-brightgreen)](#) 
+[![Welcome](https://img.shields.io/badge/Mobile%20Application-orange)](#)
+
 A simple BMI (Body Mass Index) calculator developed using Flutter.
 
 ## Overview
